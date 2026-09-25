@@ -23,7 +23,7 @@ from openai import OpenAI, OpenAIError
 from openpyxl import load_workbook
 
 
-BASE_URL = "https://gptunnel.ru"
+BASE_URL = "https://gptunnel.ru/v1"
 MODELS = ["gpt-6-astra", "claude-fable-5.1", "gemini-3.8-flash", "deepseek-v4-pro"]
 MAX_UPLOAD = 20 * 1024 * 1024
 MAX_TEXT = 80_000
